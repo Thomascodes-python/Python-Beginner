@@ -1,1 +1,1 @@
-print("Hello world")
+car_name ="lexus"
