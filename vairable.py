@@ -1,5 +1,5 @@
-player1 = input("player 1 type in your name :")
+num_one = 30
 
-player2 = input("player 2 type in your name :")
+num_two = 20
 
-print ("welcome players Thanks for chosing this app ")
+sum_num = 50
