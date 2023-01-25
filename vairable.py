@@ -32,10 +32,22 @@
 
 # print(user_first_name+" "+user_last_name)
 
-num_one = input("Enter Num One:")
+# num_one = int(input("Enter Num One:"))
 
-nun_two = input("Enter Num Two:")
+# nun_two = int(input("Enter Num Two:"))
 
-sum_num = int(num_one) + int(nun_two)
+# sum_num = num_one + nun_two
 
-print("The Answer Is:" +str(sum_num))
+# print(f"The Answer Is:{sum_num}")
+
+first_name = input("Enter First Name:")
+
+last_name = input("Enter Last Name:")
+
+age = int(input("Enter Your Age:"))
+
+current_year = int(input("Enter Current Year:"))
+
+earthly_appearance = current_year - age
+
+print(f"{first_name} {last_name}, you are {age} years old and you came to Earth In the year {earthly_appearance}.")
