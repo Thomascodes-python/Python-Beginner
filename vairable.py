@@ -4,7 +4,7 @@
 
 # sum_num = num_one+num_two
 
-# # print (sum_num)
+# print (sum_num)
 
 # name ="john smith"
 
@@ -40,14 +40,40 @@
 
 # print(f"The Answer Is:{sum_num}")
 
-first_name = input("Enter First Name:")
+# first_name = input("Enter First Name:")
 
-last_name = input("Enter Last Name:")
+# last_name = input("Enter Last Name:")
 
-age = int(input("Enter Your Age:"))
+# age = int(input("Enter Your Age:"))
 
-current_year = int(input("Enter Current Year:"))
+# current_year = int(input("Enter Current Year:"))
 
-earthly_appearance = current_year - age
+# earthly_appearance = current_year - age
 
-print(f"{first_name} {last_name}, you are {age} years old and you came to Earth In the year {earthly_appearance}.")
+# print(f"{first_name} {last_name}, you are {age} years old and you came to Earth In the year {earthly_appearance}.")
+
+# weight_in_pounds = float(input("Enter your weight in pounds:"))
+
+# weight_in_kilogram = weight_in_pounds*0.45
+
+# print(f" Your weight is:{weight_in_kilogram}")
+
+# name = input("Enter your name:")
+
+# age = int(input("Enter your age:"))
+
+
+# department_name = input("What's your department:")
+
+# score = 34.72 
+# adder = f"Answer:{age + score}"
+# print(adder)
+# print(f"I am in {department_name} department, I am {age} and my score is {score} ")
+
+# print("I am seun and i am 17 years old \nand i am from lagos nigeria \nI am a python programmer \nMr solomoonn wan kill me with python \nBut me i no foh\nNa me go kill the python\nJust lol")
+
+# player1 = int(input("Enter your number:"))
+
+# answer = player1 * 5
+
+# print(f"{answer}")
