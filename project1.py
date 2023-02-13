@@ -1,38 +1,42 @@
 print("This is a quiz game")
 
-score = None
-pass
-
+score = 0
 
 question1 = input("Who wrote this programme:")
 answer1= "emmanuel seun"
-
-question2 = input("What is the meaning of CPU:")
-answer2= "central processing unit"
-
-question3 = input("What is the full meaning of RAM:")
-answer3="Random access memory"
-
-question4 = input("At what time did Nigeria gain independence:")
-answer4="1960"
-
-question5 = input("What is an integer:")
-answer5="a number"
-
 if answer1 == question1:
-    score = 0+1
-    print(score)
-elif answer2 == question2:
-    print(score)
-    score= 1+1
-    print(score)
-elif answer3 == question3:
-    score = 2+1
-    print(score)
-elif answer4 == question4:
-    score = 3+1
-    print(score)
-elif answer5 == question5:
-    score = 4+1
-    print(score)
-print(score)
+    score = score+1
+else:
+    score = score - 1
+print(f"you scored: {score}")
+
+question2 = input("A plane chrashed in between the boarder of U.S and canada.Where will they burry the survival?:")
+answer2= "survivals are still alive"
+if answer2 == question2:
+    score= score+1
+else:
+    score = score - 1
+print(f"you scored: {score}")
+
+question3 = input("A square is_____side:")
+answer3="4"
+if answer3 == question3:
+    score = score+1
+else:
+    score = score - 1
+print(f"you scored: {score}")
+
+question4 = input("At what year did Nigeria gain independence:")
+answer4="1960"
+if answer4 == question4:
+    score = score+1
+else:
+    score = score-1
+print(f"you scored: {score}")
+question5 = input("Guess a number from 0-10:")
+answer5="4"
+if answer5 == question5:
+    score = score+1
+else:
+    score = score-1
+print(f"you scored: {score}")
