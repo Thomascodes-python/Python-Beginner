@@ -1,11 +1,11 @@
-# tarred_road = ["jide", "john", "david", "ruth", "ojike", "seun", "wisdom", "jude", "kelvin", 12]
+tarred_road = ["jide", "john", "david", "ruth", "ojike", "seun", "wisdom", "jude", "kelvin", 12]
 
-# for house in tarred_road:
-#     if house == "seun":
-#         print("Seun is there")
-#         break
-#     else:
-#         print("Seun is not found")
+for house in tarred_road:
+    if house == "seun":
+        print("Seun is there")
+        break
+    else:
+        print("Seun is not found")
 
 street = ['house1', 'house2', 'house3']
 street_ans = [20, 30, 40]
